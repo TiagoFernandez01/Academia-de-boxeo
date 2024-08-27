@@ -2,8 +2,10 @@ import React from "react";
 import box1 from "../../assets/images/box1.webp"
 import "../../styles/styles.css"
 import WorkOuts from "../workOuts/WorkOuts";
-import AbaoutUs from "../abaoutUs/AbaoutUs";
-
+import History from "../abaoutUs/history";
+import WhyUs from "../whyUs/WhyUs";
+import Contact from "../Contact/Contact";
+import Footer  from "../footer/NewFooter.jsx";
 
 const Home = () => {
 
@@ -32,8 +34,20 @@ const Home = () => {
             </section>
 
             <section>
-                <AbaoutUs/>
+                <History/>
             </section>
+
+            <section>
+                <WhyUs/>
+            </section>
+
+            <section>
+                <Contact/>
+            </section>
+
+            <footer>
+                <Footer/>
+            </footer>
         </>
     )
 }

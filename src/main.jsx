@@ -6,6 +6,7 @@ import NavBar from './Components/navBar/NavBar.jsx'
 import './index.css'
 
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>  
     <HashRouter>
