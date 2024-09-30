@@ -1,11 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import box1 from "../../assets/images/box1.webp"
 import "../../styles/styles.css"
 import WorkOuts from "../workOuts/WorkOuts";
 import History from "../abaoutUs/history";
 import WhyUs from "../whyUs/WhyUs";
 import Contact from "../Contact/Contact";
-import Footer  from "../footer/NewFooter.jsx";
+import Footer from "../footer/NewFooter.jsx";
+import Accordion from "../Q&A/Accordion.jsx";
+
 
 const Home = () => {
 
@@ -22,7 +25,9 @@ const Home = () => {
                 </div>
 
                 <div className="my-3">
-                    <button className="boton-elegante">Explora</button>
+                    <Link to='/gallery'>
+                        <button className="boton-elegante">Explora</button>
+                    </Link>
                 </div>
                 <div className="mt-6 mb-14">
                     <img src={box1} alt="" />
@@ -30,23 +35,27 @@ const Home = () => {
             </div>
 
             <section>
-                <WorkOuts/>
+                <WorkOuts />
             </section>
 
             <section>
-                <History/>
+                <History />
             </section>
 
             <section>
-                <WhyUs/>
+                <WhyUs />
             </section>
 
             <section>
-                <Contact/>
+                <Accordion />
+            </section>
+
+            <section>
+                <Contact />
             </section>
 
             <footer>
-                <Footer/>
+                <Footer />
             </footer>
         </>
     )
