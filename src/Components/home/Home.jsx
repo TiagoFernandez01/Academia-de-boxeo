@@ -6,7 +6,6 @@ import WorkOuts from "../workOuts/WorkOuts";
 import History from "../abaoutUs/history";
 import WhyUs from "../whyUs/WhyUs";
 import Contact from "../Contact/Contact";
-import Footer from "../footer/NewFooter.jsx";
 import Accordion from "../Q&A/Accordion.jsx";
 
 
@@ -54,9 +53,6 @@ const Home = () => {
                 <Contact />
             </section>
 
-            <footer>
-                <Footer />
-            </footer>
         </>
     )
 }

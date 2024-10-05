@@ -17,12 +17,12 @@ const Accordion = () => {
         <h3 className="text-white text-3xl font-bold">Preguntas frecuentes</h3>
       </div>
 
-      <div id="accordion-collapse" data-accordion="collapse" className="mt-8">
+      <div id="accordion-collapse" data-accordion="collapse" className="mt-8 mx-4">
         {/* Sección 1 */}
         <h2 id="accordion-collapse-heading-1">
           <button
             type="button"
-            className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-white border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+            className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-white border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-500 dark:hover:bg-gray-800 gap-3"
             onClick={() => toggleSection(1)}
             aria-expanded={openSection === 1}
             aria-controls="accordion-collapse-body-1"
@@ -65,7 +65,7 @@ const Accordion = () => {
         <h2 id="accordion-collapse-heading-2">
           <button
             type="button"
-            className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-white border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+            className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-white border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-500 dark:hover:bg-gray-800 gap-3"
             onClick={() => toggleSection(2)}
             aria-expanded={openSection === 2}
             aria-controls="accordion-collapse-body-2"
@@ -108,7 +108,7 @@ const Accordion = () => {
         <h2 id="accordion-collapse-heading-3">
           <button
             type="button"
-            className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-white border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+            className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-white border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-500 dark:hover:bg-gray-800 gap-3"
             onClick={() => toggleSection(3)}
             aria-expanded={openSection === 3}
             aria-controls="accordion-collapse-body-3"

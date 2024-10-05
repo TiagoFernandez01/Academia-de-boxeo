@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { BsInstagram } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 
 function Navbar() {
@@ -17,10 +18,10 @@ function Navbar() {
           <span className="self-center text-2xl font-extrabold whitespace-nowrap text-white dark:text-white"> <a className='text-red-800'>C</a>olche <a className='text-red-800'>T</a>eam</span>
         </a>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-      <a href='https://www.instagram.com/academiadeboxeo/' target='_blank' className='text-white flex justify-center items-center '>
-        <BsInstagram />
-      </a>
-          
+          <a href='https://www.instagram.com/academiadeboxeo/' target='_blank' className='text-white flex justify-center items-center '>
+            <BsInstagram />
+          </a>
+
           <button
             type="button"
             onClick={toggleMenu}
@@ -47,23 +48,30 @@ function Navbar() {
           </button>
         </div>
         <div
-          className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${
-            isMenuOpen ? "block" : "hidden"
-          }`}
+          className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${isMenuOpen ? "block" : "hidden"
+            }`}
           id="navbar-sticky"
         >
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
-              <a href="#" className="block py-2 px-3 text-white hover:text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-600 md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
+              <Link to='/'>
+                <a className="block py-2 px-3 text-white hover:text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-600 md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Inicio</a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-white hover:text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-600 md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+              <Link to={'/nosotros'}>
+                <a className="block py-2 px-3 text-white hover:text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-600 md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Nosotros</a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-white hover:text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-600 md:p-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+              <Link to='/gallery'>
+                <a className="block py-2 px-3 text-white hover:text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-600 md:p-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Galeria</a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-white hover:text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-600 md:p-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+              <Link to='/exhibiciones'>
+                <a className="block py-2 px-3 text-white hover:text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-600 md:p-0  dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Exhibiciones</a>
+              </Link>
             </li>
           </ul>
         </div>

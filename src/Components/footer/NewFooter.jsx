@@ -1,4 +1,6 @@
 import perfil from "../../assets/images/perfil.png"
+import { Link } from "react-router-dom";
+
 const NewFooter = () => {
 
     return (
@@ -11,16 +13,24 @@ const NewFooter = () => {
                     </a>
                     <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                         <li>
-                            <a href="#" className="hover:underline me-4 md:me-6">Inicio</a>
+                            <Link to='/'>
+                                <a className="hover:underline me-4 md:me-6">Inicio</a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#" className="hover:underline me-4 md:me-6">Nosotros</a>
+                            <Link to='/nosotros'>
+                                <a className="hover:underline me-4 md:me-6">Nosotros</a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#" className="hover:underline me-4 md:me-6">Licensing</a>
+                            <Link to='/gallery'>
+                                <a className="hover:underline me-4 md:me-6">Galeria</a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#" className="hover:underline">Contact</a>
+                            <Link to='/exhibiciones'>
+                                <a className="hover:underline">Exhibiciones</a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
