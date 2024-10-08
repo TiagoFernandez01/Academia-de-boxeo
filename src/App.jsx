@@ -4,6 +4,7 @@ import './App.css';
 import '../src/Components/gallery/Gallery.jsx'
 import Gallery from '../src/Components/gallery/Gallery.jsx';
 import AboutUs from './Components/abaoutUs/AboutUs.jsx';
+import Exhibitions from './Components/fights/exhibitions.jsx';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
       <Route path='/gallery' element={<Gallery />} />
       <Route path='/nosotros' element={<AboutUs />} />
+      <Route path='/exhibiciones' element={<Exhibitions />} />
     </Routes>
 
 

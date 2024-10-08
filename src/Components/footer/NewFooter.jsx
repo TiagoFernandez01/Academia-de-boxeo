@@ -11,6 +11,34 @@ const NewFooter = () => {
                         <img src={perfil} className="h-8" alt="Academia Logo" />
                         <p className="self-center text-2xl font-semibold whitespace-nowrap text-white"> <span className="text-red-800">C</span>olche <s className="text-red-800">T</s>eam</p>
                     </a>
+
+                    <div className="text-white">
+                        <p className="text-xl my-6">Nuestros Horarios</p>
+                    </div>
+
+                    <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+
+                    <div className="text-gray-300">
+                        <div className="flex justify-between mb-6">
+                            <p>Lunes - Miercoles - Viernes</p>
+                            <p>7:00AM - 9:00PM</p>
+                        </div>
+                        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+                        <div className="flex justify-between mb-6">
+                            <p>Martes - Jueves</p>
+                            <p>8:00AM - 9:00PM</p>
+                        </div>
+
+                        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+
+                        <div className="flex justify-between">
+                            <p>Sabado - Domingo</p>
+                            <p>Cerrado</p>
+                        </div>
+                    </div>
+
+                    <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+
                     <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                         <li>
                             <Link to='/'>

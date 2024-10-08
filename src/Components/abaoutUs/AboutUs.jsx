@@ -6,6 +6,8 @@ import wifi from "../../assets/images/wifi.svg"
 import work from "../../assets/images/private.svg"
 import dollar from "../../assets/images/dollar.svg"
 import ring from "../../assets/images/ring.svg"
+import diego from "../../assets/images/diego.png"
+ import mari from "../../assets/images/mari.png"
 
 const AboutUs = () => {
 
@@ -82,13 +84,32 @@ const AboutUs = () => {
                     mejorando su condición física y mental. Visualizamos una comunidad
                     donde todos se sientan bienvenidos, apoyados y motivados para superarse día a día </p>
 
-                    <p className="text-gray-400 mx-4"> Con nuestras instalaciones de primera y una variedad de
+                <p className="text-gray-400 mx-4"> Con nuestras instalaciones de primera y una variedad de
                     programas de entrenamiento, buscamos crear un ambiente que fomente el crecimiento personal
                     y el bienestar duradero.</p>
-
-               
             </div>
 
+            <div>
+                <div className="my-8 mx-4">
+                    <p className=" text-gray-400 text-sm font-light">Instructores </p>
+                    <h3 className="text-white text-3xl font-bold">Profesores</h3>
+                </div>
+
+                <div className="flex flex-col">
+                    <div className="text-white mx-4 transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300">
+                        <img src={diego} alt="" />
+                        <h5 className="text-xl mt-3 mb-2">Diego German Colche</h5>
+                        <p className="text-gray-400 mb-20">Director Tecnico de Boxeo</p>
+                    </div>
+
+                    <div className="text-white mx-4 transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300">
+                        <img src={mari} alt="" />
+                        <h5 className="text-xl mt-3 mb-2">Nombre comlpleto</h5>
+                        <p className="text-gray-400">Título/Profesión</p>
+                    </div>
+                </div>
+
+            </div>
         </>
     )
 }
