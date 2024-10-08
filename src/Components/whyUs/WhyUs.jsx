@@ -55,7 +55,7 @@ const WhyUs = () => {
 
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-red-700">Porfesores</h5>
 
-                                <p className="mb-3 font-normal text-gray-300">Contamos con el mejor equipamiento para entrenamiento de boxeo. Ofrecemos sacos, cuerdas, pesas y todo lo necesario para maximizar tu rendimiento.</p>
+                                <p className="mb-3 font-normal text-gray-300">Profesionales apasionados y con amplia experiencia, comprometidos en ayudarte a mejorar tu técnica, fuerza y disciplina. Cada entrenador adapta el entrenamiento a tu nivel para que alcances tu máximo potencial.</p>
 
                             </div>
                         </div>
