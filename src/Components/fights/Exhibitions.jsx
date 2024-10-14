@@ -19,68 +19,65 @@ const Exhibitions = () => {
             <ImageSlider images={images} />
             <div className="">
                 <div className=" items-center">
-                    <h3 className="text-4xl font-semibold text-red-600"> Proximos combates</h3>
+                    <h3 className="text-4xl font-bebas text-red-600 md:ml-36"> Proximos combates</h3>
                 </div>
 
-                <div className=" background-gradiant flex flex-col items-center border my-6 text-white mx-6">
-
-                    <div className="flex flex-col text-2xl items-center">
-                        <div className="flex items-center">
-                            <img className="h-10 w-10" src={perfil} alt="" />
-                            <p className="my-4">Peleador 1</p>
+                <div className="mx-auto max-w-7xl flex flex-col md:flex-row md:space-x-4 font-roboto">
+                    {/* Pelea 1 */}
+                    <div className="background-gradiant flex flex-col items-center border my-6 text-white  rounded-lg md:flex-1">
+                        <div className="flex flex-col text-2xl items-center">
+                            <div className="flex items-center">
+                                <img className="h-10 w-10" src={perfil} alt="Peleador 1" />
+                                <p className="my-4 font-roboto">Peleador 1</p>
+                            </div>
+                            <p>VS</p>
+                            <div className="flex items-center">
+                                <img className="h-10 w-10" src={quaglia} alt="Peleador 2" />
+                                <p className="my-4 font-roboto">Peleador 2</p>
+                            </div>
                         </div>
-                                <p>VS</p>
-                        <div className="flex items-center">
-                            <img className="h-10 w-10" src={quaglia} alt="" />
-                            <p className="my-4"> Peleador 2</p>
+                        <div className="my-8">
+                            <p>Peso: Mediano</p>
                         </div>
-
                     </div>
 
-                    <div className="my-8">
-                        <p>Peso: Mediano</p>
-                    </div>
-                </div>
-
-                <div className=" background-gradiant flex flex-col items-center border my-6 text-white mx-6">
-
-                    <div className="flex flex-col text-2xl items-center">
-                        <div className="flex items-center">
-                            <img className="h-10 w-10" src={perfil} alt="" />
-                            <p className="my-4">Peleador 3</p>
+                    {/* Pelea 2 */}
+                    <div className="background-gradiant flex flex-col items-center border my-6 text-white rounded-lg md:flex-1">
+                        <div className="flex flex-col text-2xl items-center">
+                            <div className="flex items-center">
+                                <img className="h-10 w-10" src={perfil} alt="Peleador 3" />
+                                <p className="my-4 font-roboto">Peleador 3</p>
+                            </div>
+                            <p>VS</p>
+                            <div className="flex items-center">
+                                <img className="h-10 w-10" src={quaglia} alt="Peleador 4 font-roboto" />
+                                <p className="my-4 font-roboto">Peleador 4</p>
+                            </div>
                         </div>
-                                <p>VS</p>
-                        <div className="flex items-center">
-                            <img className="h-10 w-10" src={quaglia} alt="" />
-                            <p className="my-4"> Peleador 4</p>
+                        <div className="my-8">
+                            <p>Peso: Gallo</p>
                         </div>
-
                     </div>
 
-                    <div className="my-8">
-                        <p>Peso: Gallo</p>
-                    </div>
-                </div>
-
-                <div className=" background-gradiant flex flex-col items-center border my-6 text-white mx-6">
-
-                    <div className="flex flex-col text-2xl items-center">
-                        <div className="flex items-center">
-                            <img className="h-10 w-10" src={perfil} alt="" />
-                            <p className="my-4">Peleador 5</p>
+                    {/* Pelea 3 */}
+                    <div className="background-gradiant flex flex-col items-center border my-6 text-white rounded-lg md:flex-1">
+                        <div className="flex flex-col text-2xl items-center">
+                            <div className="flex items-center">
+                                <img className="h-10 w-10" src={perfil} alt="Peleador 5" />
+                                <p className="my-4 font-roboto">Peleador 5</p>
+                            </div>
+                            <p>VS</p>
+                            <div className="flex items-center">
+                                <img className="h-10 w-10" src={quaglia} alt="Peleador 6" />
+                                <p className="my-4 font-roboto">Peleador 6</p>
+                            </div>
                         </div>
-                                <p>VS</p>
-                        <div className="flex items-center">
-                            <img className="h-10 w-10" src={quaglia} alt="" />
-                            <p className="my-4"> Peleador 6</p>
+                        <div className="my-8">
+                            <p>Peso: Super Mediano</p>
                         </div>
-
-                    </div>
-
-                    <div className="my-8">
-                        <p>Peso: Super Mediano</p>
                     </div>
                 </div>
+
 
 
             </div>

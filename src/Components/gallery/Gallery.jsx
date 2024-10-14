@@ -7,11 +7,11 @@ const Gallery = () => {
 
         <>
             <div className="flex flex-col items-center justify-center mt-8">
-                <h3 className="text-white text-4xl ">Galeria de la academia.</h3>
+                <h3 className="text-white text-4xl font-bebas md:text-5xl">Galeria de la academia.</h3>
 
                 <hr className="border-red-500 border-2 w-1/2 mt-10" />
 
-                <p className="text-white text-lg my-8">Momentos.</p>
+                <p className="text-white text-lg my-8 font-roboto md:text-3xl">Momentos.</p>
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">

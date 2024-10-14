@@ -29,13 +29,13 @@ const ImageSlider = ({ images = [] }) => {
       }}>
 
       <div className='flex flex-col justify-start py-4 gap-4 ml-10 mt-10 md:ml-20 md:mt-20 lg:ml-44 lg:mt-16'>
-        <p className='bg-red-800 text-sm w-[120px] h-[30px] flex justify-center items-center text-white md:text-lg md:w-[150px] md:h-[35px]'>
+        <p className='bg-red-800 font-roboto text-sm w-[120px] h-[30px] flex justify-center items-center text-white md:text-lg md:w-[150px] md:h-[35px]'>
           No te lo pierdas
         </p>
-        <h3 className='text-3xl font-bold md:text-4xl lg:text-5xl'>
+        <h3 className='text-3xl font-bebas md:text-4xl lg:text-5xl'>
           Próximo festival <br /> de boxeo el <br /> xx/xx/xxxx
         </h3>
-        <p className='font-light text-lg md:text-base lg:text-lg'>
+        <p className='font-roboto text-lg md:text-semi  lg:text-lg'>
           Pedinos tu anticipadas!!
         </p>
       </div>

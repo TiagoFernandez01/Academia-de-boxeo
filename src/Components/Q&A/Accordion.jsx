@@ -12,12 +12,12 @@ const Accordion = () => {
 
     <>
 
-      <div className="my-8 mx-4">
-        <p className=" text-gray-400 text-sm font-light">Dudas</p>
-        <h3 className="text-white text-3xl font-bold">Preguntas frecuentes</h3>
+      <div className="mt-36 mx-4 md:ml-36">
+        <p className=" text-gray-400 text-sm font-roboto md:text-lg">Dudas</p>
+        <h3 className="text-white text-3xl font-bebas md:text-4xl"> <a className="text-red-700">P</a>reguntas frecuentes</h3>
       </div>
 
-      <div id="accordion-collapse" data-accordion="collapse" className="mt-8 mx-4">
+      <div id="accordion-collapse" data-accordion="collapse" className="mt-8 mx-auto max-w-3xl">
         {/* Sección 1 */}
         <h2 id="accordion-collapse-heading-1">
           <button
@@ -52,10 +52,10 @@ const Accordion = () => {
           aria-labelledby="accordion-collapse-heading-1"
         >
           <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-            <p className="mb-2 text-gray-400 dark:text-gray-400">
+            <p className="mb-2 text-gray-400 dark:text-gray-400 font-roboto">
               No, no necesitas experiencia previa para comenzar en nuestra academia. Ofrecemos entrenamientos tanto para principiantes como para boxeadores amateur. Si nunca has practicado boxeo, nuestros entrenadores te guiarán paso a paso desde lo más básico.
             </p>
-            <p className="text-gray-400 dark:text-gray-400">
+            <p className="text-gray-400 dark:text-gray-400 font-roboto">
               Para aquellos que ya tienen algo de experiencia, también ofrecemos entrenamientos más avanzados para continuar desarrollando tus habilidades. ¡Lo importante es que tengas ganas de aprender y mejorar!
             </p>
           </div>
@@ -95,11 +95,11 @@ const Accordion = () => {
           aria-labelledby="accordion-collapse-heading-2"
         >
           <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-            <p className="mb-2 text-gray-400 dark:text-gray-400">
+            <p className="mb-2 text-gray-400 dark:text-gray-400 font-roboto">
               Para las clases de boxeo, se requiere el uso de guantes, vendas y protector bucal. Sin embargo, no te preocupes si aún no tienes estos elementos, ya que contamos con equipo disponible para los principiantes. Aun así, es recomendable y mucho más cómodo que cada boxeador cuente con su propio equipo personal.
             </p>
-            <p className="text-gray-400 dark:text-gray-400">
-              Además, ofrecemos estos mismo a la venta directamente en nuestra academia, para que puedas adquirirlos cuando lo necesites.
+            <p className="text-gray-400 dark:text-gray-400 font-roboto">
+              Además, ofrecemos estos mismos a la venta directamente en nuestra academia, para que puedas adquirirlos cuando lo necesites.
             </p>
           </div>
         </div>
@@ -138,15 +138,16 @@ const Accordion = () => {
           aria-labelledby="accordion-collapse-heading-3"
         >
           <div className="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
-            <p className="mb-2 text-gray-400 dark:text-gray-400">
+            <p className="mb-2 text-gray-400 dark:text-gray-400 font-roboto">
               Aceptamos personas de cualquier edad, desde los más pequeños hasta adultos mayores. Nos aseguramos de adaptar el entrenamiento a las necesidades y capacidades de cada grupo, siempre priorizando su bienestar y seguridad.
             </p>
-            <p className="mb-2 text-gray-400 dark:text-gray-400">
+            <p className="mb-2 text-gray-400 dark:text-gray-400 font-roboto">
               Contamos con entrenadores capacitados para manejar todo tipo de edades, brindando atención personalizada para garantizar un entrenamiento adecuado y efectivo para cada etapa de la vida.
             </p>
           </div>
         </div>
       </div>
+
     </>
 
   );

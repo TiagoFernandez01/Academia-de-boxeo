@@ -9,55 +9,55 @@ const NewFooter = () => {
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <a href="" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                         <img src={perfil} className="h-8" alt="Academia Logo" />
-                        <p className="self-center text-2xl font-semibold whitespace-nowrap text-white"> <span className="text-red-800">C</span>olche <s className="text-red-800">T</s>eam</p>
+                        <p className="self-center text-2xl font-bebas whitespace-nowrap text-white"> <span className="text-red-700">C</span>olche <s className="text-red-700">T</s>eam</p>
                     </a>
 
-                    <div className="text-white">
-                        <p className="text-xl my-6">Nuestros Horarios</p>
+                    <div className="text-white md:mx-8">
+                        <p className="text-xl my-6 font-roboto">Nuestros Horarios</p>
                     </div>
 
                     <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 
                     <div className="text-gray-300">
                         <div className="flex justify-between mb-6">
-                            <p>Lunes - Miercoles - Viernes</p>
-                            <p>7:00AM - 9:00PM</p>
+                            <p className="mr-6 font-roboto">Lunes - Miercoles - Viernes</p>
+                            <p className="font-roboto">7:00AM - 9:00PM</p>
                         </div>
                         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                         <div className="flex justify-between mb-6">
-                            <p>Martes - Jueves</p>
-                            <p>8:00AM - 9:00PM</p>
+                            <p className="font-roboto">Martes - Jueves</p>
+                            <p className="font-roboto">8:00AM - 9:00PM</p>
                         </div>
 
                         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 
                         <div className="flex justify-between">
-                            <p>Sabado - Domingo</p>
-                            <p>Cerrado</p>
+                            <p className="font-roboto">Sabado - Domingo</p>
+                            <p className="font-roboto">Cerrado</p>
                         </div>
                     </div>
 
                     <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 
-                    <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <ul className="flex flex-wrap items-center mb-6 text-smfont-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                         <li>
                             <Link to='/'>
-                                <a className="hover:underline me-4 md:me-6">Inicio</a>
+                                <a className="hover:underline me-4 md:me-6 font-roboto">Inicio</a>
                             </Link>
                         </li>
                         <li>
                             <Link to='/nosotros'>
-                                <a className="hover:underline me-4 md:me-6">Nosotros</a>
+                                <a className="hover:underline me-4 md:me-6 font-roboto">Nosotros</a>
                             </Link>
                         </li>
                         <li>
                             <Link to='/gallery'>
-                                <a className="hover:underline me-4 md:me-6">Galeria</a>
+                                <a className="hover:underline me-4 md:me-6 font-roboto">Galeria</a>
                             </Link>
                         </li>
                         <li>
                             <Link to='/exhibiciones'>
-                                <a className="hover:underline">Exhibiciones</a>
+                                <a className="hover:underline font-roboto">Exhibiciones</a>
                             </Link>
                         </li>
                     </ul>
