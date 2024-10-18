@@ -100,13 +100,13 @@ const AboutUs = () => {
 
                 <div className="flex flex-col items-center mx-2 font-bebas">
                     <div className="text-white mx-4 transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300">
-                        <img className="md:w-[600px] md:h-[600px]" src={diego} alt="" />
+                        <img className="md:w-[600px] md:h-[600px]" src="https://cdn.prod.website-files.com/669e4cac4669318c84dbd2b3/66a092c06706dfaa3e18a6ed_instructor-main-01-p-800.jpg" alt="" />
                         <h5 className="text-xl mt-3 mb-2 font-bebas">Diego German Colche</h5>
                         <p className="text-gray-400 mb-20 font-roboto">Director Tecnico de Boxeo</p>
                     </div>
 
                     <div className="text-white mx-4 transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300">
-                        <img className="md:w-[600px] md:h-[600px]" src={mari} alt="" />
+                        <img className="md:w-[600px] md:h-[600px]" src="https://cdn.prod.website-files.com/669e4cac4669318c84dbd2b3/66a094060f40c8024b4ef5b5_instructor-main-03-p-800.jpg" alt="" />
                         <h5 className="text-xl mt-3 mb-2 font-bebas">Nombre comlpleto</h5>
                         <p className="text-gray-400 font-roboto">Título/Profesión</p>
                     </div>

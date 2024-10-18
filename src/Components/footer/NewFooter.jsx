@@ -21,12 +21,14 @@ const NewFooter = () => {
                     <div className="text-gray-300">
                         <div className="flex justify-between mb-6">
                             <p className="mr-6 font-roboto">Lunes - Miercoles - Viernes</p>
-                            <p className="font-roboto">7:00AM - 9:00PM</p>
+                            <p className="font-roboto mr-4">7:00AM - 11:00AM</p>
+                            <p className="font-roboto">15:00PM - 9:00PM</p>
                         </div>
                         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                         <div className="flex justify-between mb-6">
-                            <p className="font-roboto">Martes - Jueves</p>
-                            <p className="font-roboto">8:00AM - 9:00PM</p>
+                            <p className="font-roboto mr-4">Martes - Jueves</p>
+                            <p className="font-roboto mr-4">9:00AM - 11:00AM</p>
+                            <p className="font-roboto">15:00PM - 9:00PM</p>
                         </div>
 
                         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
